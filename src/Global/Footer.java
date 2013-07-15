@@ -28,23 +28,29 @@ public class Footer {
 	@Test
 	public void TestFooter() {
 		selenium.open("/recruit2/#");
+		//Checking Footer logo
 		assertEquals(selenium.getText("css=img.footer_logo"), "");
+		//Checking Mobile Analytics logo
 		assertEquals(selenium.getText("css=img[alt=\"Mobile Analytics\"]"), "");
+		//Clicking and checking About us link
 		selenium.click("xpath=/html/body/div[6]/ul/li[2]/a");
 		selenium.waitForPageToLoad("30000");
 		assertTrue(selenium.isTextPresent("About us"));
 		selenium.goBack();
 		selenium.waitForPageToLoad("30000");
+		//Clicking and checking Contact Us link
 		selenium.click("xpath=/html/body/div[6]/ul/li[4]/a");
 		selenium.waitForPageToLoad("30000");
 		assertEquals(selenium.getText("css=h4"), "Contact us");
 		selenium.goBack();
 		selenium.waitForPageToLoad("30000");
+		//Clicking and checking Privacy Policy link
 		selenium.click("xpath=/html/body/div[6]/ul/li[5]/a");
 		selenium.waitForPageToLoad("30000");
 		assertEquals(selenium.getText("css=h4"), "Privacy Policy");
 		selenium.goBack();
 		selenium.waitForPageToLoad("30000");
+		//Clicking and checking Media Buzz link
 		selenium.click("xpath=/html/body/div[6]/ul/li[6]/a");
 		selenium.waitForPageToLoad("30000");
 		assertEquals(selenium.getText("css=h4"), "Media Buzz");

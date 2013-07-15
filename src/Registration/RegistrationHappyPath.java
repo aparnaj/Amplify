@@ -29,6 +29,7 @@ public class RegistrationHappyPath  {
 	@Test
 	public void testHappyPath() {
 		selenium.open("/recruit2/");
+		//Registering a New User
 		selenium.click("link=SIGN UP");
 		selenium.waitForPageToLoad("30000");
 		selenium.type("id=inputEmail", "vancha.neelima@gmail.com");
@@ -37,6 +38,7 @@ public class RegistrationHappyPath  {
 		selenium.type("id=inputCompany", "Personal");
 		selenium.type("id=inputNumber", "1122334567");
 		selenium.click("name=signup_button");
+		//Verifying Home page after Registration
 		assertTrue(selenium.isTextPresent("CREATE TEST"));
 		assertEquals(selenium.getTable("css=table.0.1"), "Add Questions");
 		assertEquals(selenium.getTable("css=table.0.2"), "Invite Candidates");
