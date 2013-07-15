@@ -1,8 +1,8 @@
-package Login;
+package Registration;
 
 import org.testng.annotations.Test;
 
-public class ErrorStates {
+public class RErrorStates {
   @Test
   public void f() {
   }
