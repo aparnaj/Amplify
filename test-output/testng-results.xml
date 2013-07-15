@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39" started-at="2013-07-15T00:13:41Z" finished-at="2013-07-15T00:13:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39" started-at="2013-07-15T00:13:41Z" finished-at="2013-07-15T00:13:41Z">
+      <class name="Registration.ErrorStates">
+        <test-method status="PASS" signature="f()[pri:0, instance:Registration.ErrorStates@66100363]" name="f" duration-ms="1" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Registration.ErrorStates -->
+      <class name="Settings.FieldValidations">
+        <test-method status="PASS" signature="f()[pri:0, instance:Settings.FieldValidations@48067064]" name="f" duration-ms="1" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Settings.FieldValidations -->
+      <class name="Settings.Password">
+        <test-method status="PASS" signature="f()[pri:0, instance:Settings.Password@97d01f]" name="f" duration-ms="1" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Settings.Password -->
+      <class name="Login.HappyPath">
+        <test-method status="PASS" signature="f()[pri:0, instance:Login.HappyPath@254e8cee]" name="f" duration-ms="0" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Login.HappyPath -->
+      <class name="Global.Footer">
+        <test-method status="PASS" signature="f()[pri:0, instance:Global.Footer@403ef810]" name="f" duration-ms="1" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Global.Footer -->
+      <class name="Login.ForgotPassword">
+        <test-method status="PASS" signature="f()[pri:0, instance:Login.ForgotPassword@4cb9e45a]" name="f" duration-ms="0" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Login.ForgotPassword -->
+      <class name="Global.Header">
+        <test-method status="PASS" signature="f()[pri:0, instance:Global.Header@4979935d]" name="f" duration-ms="0" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Global.Header -->
+      <class name="Registration.HappyPath">
+        <test-method status="PASS" signature="f()[pri:0, instance:Registration.HappyPath@5e0feb48]" name="f" duration-ms="12" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Registration.HappyPath -->
+      <class name="Login.ErrorStates">
+        <test-method status="PASS" signature="f()[pri:0, instance:Login.ErrorStates@1ebcda2d]" name="f" duration-ms="1" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Login.ErrorStates -->
+      <class name="Login.NoActivation">
+        <test-method status="PASS" signature="f()[pri:0, instance:Login.NoActivation@6ee0a386]" name="f" duration-ms="1" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Login.NoActivation -->
+      <class name="Settings.DataChanges">
+        <test-method status="PASS" signature="f()[pri:0, instance:Settings.DataChanges@1c5d9084]" name="f" duration-ms="1" started-at="2013-07-14T20:13:41Z" finished-at="2013-07-14T20:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Settings.DataChanges -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
